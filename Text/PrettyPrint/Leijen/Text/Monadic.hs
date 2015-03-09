@@ -39,7 +39,7 @@ module Text.PrettyPrint.Leijen.Text.Monadic (
    align, hang, indent, encloseSep, list, tupled, semiBraces,
 
    -- * Operators
-   (<+>), (<++>), (<$>), (</>), (<$$>), (<//>),
+   (<+>), (<++>), (PP.<$>), (</>), (<$$>), (<//>),
 
    -- * List combinators
    hsep, vsep, fillSep, sep, hcat, vcat, fillCat, cat, punctuate,
